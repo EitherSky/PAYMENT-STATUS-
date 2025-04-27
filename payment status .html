@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Payment Status</title>
+  <style>
+    body {
+      background-color: #f5f7f6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .table-container {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+    .paid {
+      color: green;
+      font-weight: bold;
+    }
+    .live {
+      color: green;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<div class="table-container">
+  <h2>Payment Status</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Days</th>
+        <th>User</th>
+        <th>Amount Paid</th>
+        <th>Payment Status</th>
+        <th>Live Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>25.04.2025</td>
+        <td>Toshi das</td>
+        <td>40₹</td>
+        <td class="paid">Paid</td>
+        <td class="live">Live</td>
+      </tr>
+      <tr>
+        <td>26.04.2025</td>
+        <td>Bishnupriya pati</td>
+        <td>40₹</td>
+        <td class="paid">Paid</td>
+        <td class="live">Live</td>
+        </tr>
+                <tr>
+                    <td>27.04.2025</td>
+                    <td>Bishnupriya pati</td>
+                    <td>40₹</td>
+                    <td class="paid">Paid</td>
+                    <td class="live">cancelled</td>
+                      </tr>
+                <tr>
+                    <td>28.04.2025</td>
+                    <td>Bishnupriya pati</td>
+                    <td>40₹</td>
+                    <td class="paid">Paid</td>
+                    <td class="live">Pending</td>
+      
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
